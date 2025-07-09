@@ -1,0 +1,68 @@
+<html>
+    <body>
+        <style>
+            /*
+            .box{
+                width: 200px;
+                height: 200px;
+                background-color: red;
+                margin-left: 0;
+            }
+            .animEsquerda{
+                transition: 1s;
+                margin-left: 90px;
+                margin-top: 20px;
+                background-color: green;
+            }
+            */
+            .conteudo h2 span{
+                font-size: 13px;
+                cursor: pointer;
+            }
+
+            .conteudo p{
+                overflow:hidden;
+                height:0;
+                transition:1s;
+            }
+
+            .mostrar{
+                height: 200px !important;
+            }
+        </style>
+        <!--div Class="box"></div>-->
+        <div class="conteudo">
+            <h2>Titulo do conteudo</h2><span>Ver mais!</span></h2>
+            <p>Lorem ipsum is a dummy text used in the design and publishing industry, originating from a scrambled passage of Cicero's work from the 15th century. It serves as a placeholder text in graphic design, web development, and publishing to focus attention on design elements rather than content. The text has been the industry's standard since the 1500s and remains widely used today. You can also generate "Lorem ipsum" text using various online tools.</p>
+        </div>
+        <script>
+            /*
+            var box = document.querySelectorAll('.box')[0];
+            /*
+            setTime(()=>{
+                box.classList.add('animEsquerda');
+            },1000);
+            
+           box.assEventListener('click',()=>{
+            box.classList.add('animEsquerda');
+           })
+           */
+
+        var span = document.querySelector('.conteudo span')
+        span.addEventListener('click',function(){
+              var conteudo = document.querySelector('.conteudo p');
+
+              if(conteudo.classList.contais('mostrar')){
+                span.innerHTML = 'Ver mais!';
+                conteudo.classList.remove('mostrar');
+              }else{
+                span.innerHTML = 'Ocultar';
+                conteudo.classList.add('mostrar');
+                
+              }
+           });
+            
+        </script>
+        
+    </body>
+</html>

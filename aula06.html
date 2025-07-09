@@ -1,0 +1,61 @@
+<html>
+<body>
+        <script>
+            /*
+            let func = function(){
+                alert('Olá mundo!');
+            }
+            func();
+            */
+           (function(){
+                alert('Olá mundo!');
+           })();
+        
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+import numpy as np
+
+# Definição da função sigmoid e sua derivada
+def sigmoid(x):
+    return 1 / (1 + np.exp(-x))
+
+def sigmoid_derivative(x):
+    return x * (1 - x)
+
+# Definindo as entradas e saídas (Exemplo: função lógica AND)
+x = np.array([[0, 0],
+              [0, 1],
+              [1, 0],
+              [1, 1]])
+
+y = np.array([[0], [0], [0], [1]])
+
+# Inicialização dos pesos com valores aleatórios
+np.random.seed(0)
+weights = np.random.rand(x.shape[1], 1)
+
+# Treinamento da rede neural
+num_iterations = 10000
+for i in range(num_iterations):
+    input_layer = x
+    outputs = sigmoid(np.dot(input_layer, weights))
+    
+    error = y - outputs
+    delta = error * sigmoid_derivative(outputs)
+    
+    weights += np.dot(input_layer.T, delta)
+
+# Resultados
+print("Pesos finais após o treinamento:")
+print(weights)
+
+print("Saídas após o treinamento:")
+print(outputs)
