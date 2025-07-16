@@ -1,137 +1,70 @@
-# Projeto-JavaScript
+# Getting Started with Create React App
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <title>Ementa do Curso JavaScript</title>
-  <link rel="stylesheet" href="estilo.css">
-</head>
-<body>
-  <header>
-    <h1>📘 Ementa do Curso JavaScript</h1>
-    <p>Domine as principais etapas da programação com JavaScript!</p>
-  </header>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-  <section>
-    <h2>🧠 Tecnologias Utilizadas</h2>
-    <div class="badges">
-      <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-      <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-      <img src="https://img.shields.io/badge/ECMAScript-1E90FF?style=for-the-badge&logo=es6&logoColor=white">
-      <img src="https://img.shields.io/badge/AJAX-FF9900?style=for-the-badge&logo=ajax&logoColor=white">
-      <img src="https://img.shields.io/badge/LocalStorage-0052CC?style=for-the-badge&logo=googlechrome&logoColor=white">
-      <img src="https://img.shields.io/badge/PokéAPI-DC143C?style=for-the-badge&logo=pokemon&logoColor=white">
-      <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white">
-    </div>
-  </section>
+## Available Scripts
 
-  <section>
-    <h2>📌 Introdução</h2>
-    <p>Recepção ao curso, definição de objetivos e visão do JavaScript no mundo moderno.</p>
-    <div class="tecnologias">
-      <button>JavaScript</button>
-    </div>
-  </section>
+In the project directory, you can run:
 
-  <section>
-    <h2>⏳ Evolução do JavaScript</h2>
-    <p>História da linguagem, evolução do ECMAScript e comparações com outras linguagens.</p>
-    <div class="tecnologias">
-      <button>ES5</button>
-      <button>ES6+</button>
-      <button>JavaScript</button>
-    </div>
-  </section>
+### `npm start`
 
-  <section>
-    <h2>🧰 Ambiente de Trabalho</h2>
-    <p>Instalação do VSCode, criação de estrutura básica e uso do terminal.</p>
-    <div class="tecnologias">
-      <button>VSCode</button>
-      <button>HTML</button>
-      <button>JavaScript</button>
-    </div>
-  </section>
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-  <section>
-    <h2>🤓 Lógica de Programação</h2>
-    <p>Variáveis, operadores, condicionais, loops e exercícios de lógica.</p>
-    <div class="tecnologias">
-      <button>JavaScript</button>
-    </div>
-  </section>
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-  <section>
-    <h2>🧩 Orientação a Objetos</h2>
-    <p>Classes, objetos, herança, encapsulamento e estrutura limpa.</p>
-    <div class="tecnologias">
-      <button>JavaScript</button>
-      <button>OOP</button>
-    </div>
-  </section>
+### `npm test`
 
-  <section>
-    <h2>🎯 Manipulação do DOM</h2>
-    <p>Interação com o HTML usando seletores, eventos e alterações dinâmicas.</p>
-    <div class="tecnologias">
-      <button>JavaScript</button>
-      <button>DOM</button>
-      <button>HTML</button>
-    </div>
-  </section>
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-  <section>
-    <h2>🚀 JavaScript Moderno</h2>
-    <p>Uso de let/const, arrow functions, async/await e boas práticas.</p>
-    <div class="tecnologias">
-      <button>ES6+</button>
-      <button>JavaScript</button>
-    </div>
-  </section>
+### `npm run build`
 
-  <section>
-    <h2>🔄 Ajax</h2>
-    <p>Comunicação assíncrona e consumo de APIs com fetch.</p>
-    <div class="tecnologias">
-      <button>AJAX</button>
-      <button>APIs</button>
-      <button>JavaScript</button>
-    </div>
-  </section>
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-  <section>
-    <h2>🛒 Lista de Supermercado</h2>
-    <p>App com entrada de dados, DOM dinâmico e LocalStorage.</p>
-    <div class="tecnologias">
-      <button>HTML</button>
-      <button>CSS</button>
-      <button>JavaScript</button>
-      <button>LocalStorage</button>
-    </div>
-  </section>
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-  <section>
-    <h2>✊ Pedra, Papel ou Tesoura</h2>
-    <p>Jogo com lógica condicional, eventos e feedback visual.</p>
-    <div class="tecnologias">
-      <button>HTML</button>
-      <button>CSS</button>
-      <button>JavaScript</button>
-    </div>
-  </section>
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-  <section>
-    <h2>🐱 Pokédex com API</h2>
-    <p>Consumo da PokéAPI, parsing de dados e visualização interativa.</p>
-    <div class="tecnologias">
-      <button>HTML</button>
-      <button>CSS</button>
-      <button>JavaScript</button>
-      <button>PokéAPI</button>
-    </div>
-  </section>
-</body>
-</html>
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
